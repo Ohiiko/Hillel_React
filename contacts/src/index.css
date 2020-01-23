@@ -1,0 +1,34 @@
+
+.container .contactsHeader div{
+  background-color: lightskyblue;
+}
+
+
+
+.row div{
+  display: inline-block;
+  color: #555;
+  border: 1px solid #bbb;
+  cursor: pointer;
+  padding: 5px 0px;
+  margin: 5px 10px 5px 0;
+  font-size: 20px;
+  width: 24%;
+  text-align: center;
+  background-color: lightgreen;
+}
+
+
+.contactsList .row:hover div {
+  background-color: grey;
+  display: inline-block;
+  color: #555;
+  border: 1px solid #bbb;
+  cursor: pointer;
+  padding: 5px 0px;
+  margin: 5px 10px 5px 0;
+  font-size: 20px;
+  width: 24%;
+  text-align: center;
+  color: yellow;
+}
