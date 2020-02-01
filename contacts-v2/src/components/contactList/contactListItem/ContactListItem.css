@@ -1,0 +1,18 @@
+.row div{
+    display: inline-block;
+    color: #555;
+    cursor: pointer;
+    padding: 5px 0px;
+    margin: 5px 10px 5px 0;
+    font-size: 20px;
+    text-align: center;
+    width: 33%;
+    background-color: lightgreen;
+}
+
+.deleteContactBtn {
+    background-color: rgb(241, 121, 121);
+    float: right;
+    margin: 13px;
+    color: #555;
+}

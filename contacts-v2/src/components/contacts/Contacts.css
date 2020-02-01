@@ -1,0 +1,19 @@
+body{
+    background-color: grey;
+}
+
+.leftPart {
+    width: 40%;
+    float: left;
+}
+
+.rightPart {
+    width: 60%;
+    float: right;
+}
+
+.addNewContactBtn{
+    background-color:rgb(206, 206, 65);
+    font-size: 20px;
+    color: #555;
+}
