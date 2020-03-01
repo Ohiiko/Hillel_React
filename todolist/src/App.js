@@ -66,12 +66,8 @@ function App() {
     }
 
     function onToggleTodoItem(id){
-        setTodos(todos.map(item=>{
-            if (item.id === id){
-                item.isDone = !item.isDone
-            }
-            return item;
-        }))
+        const todo = todos.find(item => item.id === id);
+        updateTodo({ ...todo, isDone: !todo.isDone });
     }
 
     return (
